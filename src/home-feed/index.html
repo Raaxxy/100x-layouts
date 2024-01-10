@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100x</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-Neutral-1000">
+    <header class="flex flex-col w-full items-center">
+        <section class="flex flex-row px-4 py-3  w-full items-center border-b border-neutral-700">
+            <a href="../../src/user-profile/index.html" class="flex-shrink-0 w-9 h-9" >            
+                <img src="../../public/images/user-avatar.svg" alt="profile-picture" class=" text-neutral-50 bg-Neutral-1000">
+            </a>
+            <div class="w-full flex justify-center">
+            <img src="../../public/images/100x-logo.svg" alt="100x-logo" class="text-neutral-50">
+            </div>
+        </section>
+        <div class="flex w-full flex-1 justify-around border-b border-b-neutral-700 bg-neutral-1000 backdrop-blur-md">
+            <div class="flex w-full flex-col items-center hover:bg-neutral-800">
+            <input type="radio" class="peer/foryou_tab hidden w-full" id="foryou_tab" value="foryou_tab" name="home_tabs" checked=""/>
+            <label for="foryou_tab" class="block w-full cursor-pointer py-4 text-center font-medium text-neutral-400 transition-all duration-100 peer-checked/foryou_tab:font-bold peer-checked/foryou_tab:text-neutral-50">
+                For you
+            </label>
+            <div class="rounded-2.5xl hidden h-1 w-14 bg-twitter-blue-default peer-checked/foryou_tab:block"></div>
+            </div>
+
+            <div class="flex w-full flex-col items-center hover:bg-neutral-900">
+            <input type="radio" class="peer/following hidden w-full" id="following" value="following" name="home_tabs"/>
+            <label for="following" class="block w-full cursor-pointer border-twitter-default py-4 text-center font-medium text-neutral-400 transition-all duration-100 peer-checked/following:font-bold peer-checked/following:text-neutral-50">
+                Following
+            </label>
+            <div class="rounded-2.5xl hidden h-1 w-14 bg-twitter-blue-default peer-checked/following:block"></div>
+            </div>
+      </div>
+    </header>
+
+    <main>
+        <!-- tweet -->
+        <section class="flex  py-2 px-4 items-start gap-4 border-b border-b-neutral-700">
+            <div class="h-12 min-w-fit">
+                <img src="../../public/images/user-avatar-1.svg" class="h-12 w-12 rounded-full text-neutral-50" alt="user-profile">  
+            </div>
+            <div class="w-full">
+                <div class="flex flex-row gap-2 items-center">
+                    <p class="text-neutral-50 font-inter font-medium leading-normal not-italic text-base">Name</p>
+                    <p class="text-neutral-500 font-inter not-italic font-normal leading-normal text-base">@handle • 10h</p>
+                </div>
+                <div>
+                    <p class="self-stretch text-neutral-50 text-base font-normal leading-normal">
+                        Don't wish for it, work for it.    
+                    </p>
+                </div>
+                <div class="flex justify-between items-center self-stretch w-full lg:pr-5 py-3 text-neutral-500">
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/comment.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">11</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/retweet.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">270</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/heart.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">1,869</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/reach-sv.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">99.6K</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/share.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tweet 2 -->
+        <section class="flex  py-2 px-4 items-start gap-4 border-b border-b-neutral-700">
+            <div class="min-w-fit h-12">
+                <img src="../../public/images/user-avatar-2.svg" class="h-12 w-12 rounded-full text-neutral-50" alt="user-profile">  
+            </div>
+            <div class="w-full gap-2 flex-col flex">
+                
+                <div class="flex flex-row gap-2 items-center">
+                    <p class="text-neutral-50 font-inter font-medium leading-normal not-italic text-base">Name</p>
+                    <p class="text-neutral-500 font-inter not-italic font-normal leading-normal text-base">@handle • 10h</p>
+                </div>
+
+                <div class="flex">
+                    <p class=" text-neutral-50 font-inter text-[15px] font-normal leading-normal">
+                            I've seen people absolutely despise auto layout in figma but i think it's a lifesaver-<br>
+                            1. tidies everything nice and compact<br>
+                            2. makes responsive design effortless<br>
+                            3. no manual adjustments post any tweaks<br>
+                            4. saves a tonnn of time<br><br>
+                            sorry, but will stay an auto layout maxi all life.    
+                    </p>
+                </div>
+                
+                <div class="flex justify-between items-center self-stretch w-full lg:pr-5 py-3 text-neutral-500">
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/comment.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">11</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/retweet.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">270</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/heart.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">1,869</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/reach-sv.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">99.6K</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/share.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tweet-3 -->
+        <section class="flex  py-2 px-4 items-start gap-4 border-b border-b-neutral-700">
+            <div class="min-w-fit h-12">
+                <img src="../../public/images/user-avatar-3.svg" class="h-12 w-12 rounded-full text-neutral-50" alt="user-profile">  
+            </div>
+            <div class="w-full gap-2 flex-col flex">
+                
+                <div class="flex flex-row gap-2 items-center">
+                    <p class="text-neutral-50 font-inter font-medium leading-normal not-italic text-base">Name</p>
+                    <p class="text-neutral-500 font-inter not-italic font-normal leading-normal text-base">@handle • 10h</p>
+                </div>
+                
+                <div class="flex">
+                    <p class=" text-neutral-50 font-inter text-[15px] font-normal leading-normal">
+                        bim bim bam bam python
+                    </p>
+                </div>
+                
+                <div class="flex justify-between items-center self-stretch w-full lg:pr-5 py-3 text-neutral-500">
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/comment.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">11</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/retweet.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">270</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/heart.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">1,869</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/reach-sv.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">99.6K</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/share.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- tweet-4 -->
+        <section class="flex  py-2 px-4 items-start gap-4 border-b border-b-neutral-700">
+            <div class="h-12 min-w-fit">
+                <img src="../../public/images/user-avatar-1.svg" class="h-12 w-12 rounded-full text-neutral-50" alt="user-profile">  
+            </div>
+            <div class="w-full">
+                <div class="flex flex-row gap-2 items-center">
+                    <p class="text-neutral-50 font-inter font-medium leading-normal not-italic text-base">Name</p>
+                    <p class="text-neutral-500 font-inter not-italic font-normal leading-normal text-base">@handle • 10h</p>
+                </div>
+                <div>
+                    <p class="self-stretch text-neutral-50 text-base font-normal leading-normal">
+                        Don't wish for it, work for it.    
+                    </p>
+                </div>
+                <div class="flex justify-between items-center self-stretch w-full lg:pr-5 py-3 text-neutral-500">
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/comment.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">11</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/retweet.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">270</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/heart.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">1,869</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/reach-sv.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">99.6K</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/share.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex  py-2 px-4 items-start gap-4 border-b border-b-neutral-700">
+            <div class="min-w-fit h-12">
+                <img src="../../public/images/user-avatar-2.svg" class="h-12 w-12 rounded-full text-neutral-50" alt="user-profile">  
+            </div>
+            <div class="w-full gap-2 flex-col flex">
+                
+                <div class="flex flex-row gap-2 items-center">
+                    <p class="text-neutral-50 font-inter font-medium leading-normal not-italic text-base">Name</p>
+                    <p class="text-neutral-500 font-inter not-italic font-normal leading-normal text-base">@handle • 10h</p>
+                </div>
+
+                <div class="flex">
+                    <p class=" text-neutral-50 font-inter text-[15px] font-normal leading-normal">
+                            I've seen people absolutely despise auto layout in figma but i think it's a lifesaver-<br>
+                            1. tidies everything nice and compact<br>
+                            2. makes responsive design effortless<br>
+                            3. no manual adjustments post any tweaks<br>
+                            4. saves a tonnn of time<br><br>
+                             
+                    </p>
+                </div>
+                
+                <div class="flex justify-between items-center self-stretch w-full lg:pr-5 py-3 text-neutral-500">
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/comment.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">11</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/retweet.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">270</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1 ">
+                        <img src="../../public/images/heart.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">1,869</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/reach-sv.svg">
+                        <p class="font-inter text-sm not-italic font-normal text-neutral-500">99.6K</p>
+                    </div>
+                    <div class="flex items-center justify-between gap-1">
+                        <img src="../../public/images/share.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="fixed bottom-24 left-1/2 mx-auto flex -translate-x-1/2 transform items-center justify-center gap-2.5 rounded-[100px] bg-searchbar-fill px-8 py-3">
+            <p class="whitespace-nowrap text-0.9rem  font-normal leading-normal text-neutral-50">
+            Copied to clipboard.
+            </p>
+        </div>
+        <a href="../compose-tweet/index.html">
+            <button class="fixed bottom-20 right-4 items-start gap-2.5 rounded-full bg-twitter-blue-default p-4 shadow-3xl">
+              <img class="h-8 w-8 rounded-full" src="../../public/images/content-add.svg"/>
+            </button>
+        </a>
+    </main>
+    <footer class="fixed bottom-0 py-[18px] flex w-full items-center justify-center gap-10 border-t border-neutral-800 bg-Neutral-1000 px-6 py-1.1rem">
+        <div class="group">
+            <button>
+                <img src="../../public/images/home-icon.svg" />
+            </button>
+        </div>
+        <a href="../../src/user-profile/index.html">
+            <div class="group">
+                <button >
+                <img src="../../public/images/profile-icon.svg" />
+                </button>
+            </div>
+        </a>
+  </footer>
+  </body>
+</html>

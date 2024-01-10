@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>100x</title>
+    <link href="../../dist/output.css" rel="stylesheet" />
+  </head>
+<body class="bg-Neutral-1000 px-4">
+  <header class="flex flex-col gap-3">
+      <section class="flex py-3 justify-between items-center self-stretch">
+        <div class="flex items-center gap-5">
+          <a href="../../src/user-profile/index.html"><img src="../../public/images/arrow-left.svg" alt="left-arrow" class="text-neutral-50"></a>
+          <div class="text-neutral-50 font-inter text-base not-italic font-bold leading-normal">Edit profile</div>
+        </div>
+        <button class="flex py-2 px-5 justify-center items-center gap-2.5 rounded-border-radius-30 bg-neutral-50 shadow-button backdrop-blur-23 hover:bg-neutral-200">
+          <div class="text-Neutral-1000 font-inter text-sm not-italic font-bold leading-normal">Save</div>
+        </button>
+      </section>
+        <div class="flex w-full relative">
+          <img src="../../public/images/header-image.png" alt="banner-image" class="text-neutral-50 w-full md:h-[250px]">
+            <div class="flex h-full w-full items-center justify-center absolute gap-2">
+              <img src="../../public/images/add-photo.svg" alt="add-image" class="text-neutral-50">
+              <img src="../../public/images/cancel-photo.svg" alt="cancel-image" class="text-neutral-50">
+            </div> 
+        </div>     
+  </header>
+  <main class="relative">
+    
+      <img src="../../public/images/user-avatar-1.svg" class="text-neutral-50 absolute -top-8  w-[68px] h-[68px] rounded-border-radius-200 border-Neutral-1000 border-4 border-solid" alt="user-profile"> 
+      <img src="../../public/images/add-photo.svg" alt="cancel-image" class="text-neutral-50 absolute -top-3 left-5 ">
+    
+    <div class="flex flex-col items-center gap-5 self-stretch pt-10 pb-10">
+      <fieldset class="group flex items-center self-stretch rounded-border-radius-4 border border-solid border-neutral-500 py-4 px-3 gap-2.5 focus-within:border-twitter-blue-default">
+        <legend class="text-neutral-500 font-inter text-xs not-italic font-medium leading-normal group-focus-within:text-twitter-blue-default"> <div class="px-2">Name</div></legend>
+        <input type="text" placeholder="Name" value="lorem ipsum" class="w-full font-inter text-xl not-italic font-normal leading-normal text-neutral-50 placeholder:text-Neutral-500 bg-transparent focus:outline-none">
+      </fieldset> 
+
+      <fieldset class="group flex items-center self-stretch rounded-border-radius-4 border border-solid border-neutral-500 py-4 px-3 gap-2.5 focus-within:border-twitter-blue-default">
+        <legend class="text-neutral-500 font-inter text-xs not-italic font-medium leading-normal group-focus-within:text-twitter-blue-default"> <div class="px-2">Bio</div></legend>
+        <!-- <input type="text" placeholder="Bio" value="lorem ipsum " class="w-full font-inter text-xl not-italic font-normal leading-normal text-neutral-50 placeholder:text-Neutral-500 bg-transparent focus:outline-none"> -->
+        <textarea name="" id="" type="text" cols="30" rows="2" placeholder="" class="bg-transparent  resize-none w-full text-base font-inter  text-neutral-50  placeholder-neutral-600 focus:outline-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor  </textarea>
+      </fieldset> 
+
+      <fieldset class="group flex items-center self-stretch rounded-border-radius-4 border border-solid border-neutral-500 py-4 px-3 gap-2.5 focus-within:border-twitter-blue-default">
+        <legend class="text-neutral-500 font-inter text-xs not-italic font-medium leading-normal group-focus-within:text-twitter-blue-default"> <div class="px-2">Location</div></legend>
+        <input type="text" placeholder="Location" class="w-full font-inter text-xl not-italic font-normal leading-normal text-neutral-50 placeholder:text-Neutral-500 bg-transparent focus:outline-none">
+      </fieldset> 
+
+      <fieldset class="group flex items-center self-stretch rounded-border-radius-4 border border-solid border-neutral-500 py-4 px-3 gap-2.5 focus-within:border-twitter-blue-default">
+        <legend class="text-neutral-500 font-inter text-xs not-italic font-medium leading-normal group-focus-within:text-twitter-blue-default"> <div class="px-2">Website</div></legend>
+        <input type="text" placeholder="Website" class="w-full font-inter text-xl not-italic font-normal leading-normal text-neutral-50 placeholder:text-Neutral-500 bg-transparent focus:outline-none">
+      </fieldset> 
+    </div>
+  </main>
+</body>
+</html>
